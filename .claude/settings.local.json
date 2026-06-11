@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(npm run *)",
+      "Bash(./node_modules/.bin/vue-tsc -b --noEmit)",
+      "Bash(where node *)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(cmd *)",
+      "Bash(/d/NodeJs/node.exe -v)",
+      "Bash(/d/NodeJs/npm.cmd -v)",
+      "Bash(/d/NodeJs/npx.cmd vue-tsc *)"
+    ]
+  }
+}
