@@ -14,16 +14,13 @@
 
 | 工具 | 路径 | 状态 |
 |------|------|------|
-| JSON 查看器 | `/json-viewer` | ✅ 已实现 |
-| SQL 格式化 | `/sql-formatter` | ✅ 已实现 |
-| 时间戳转换 | `/timestamp` | ✅ 已实现 |
-| 密码生成器 | `/password` | ✅ 已实现 |
-| 颜色转换 | `/color` | ✅ 已实现 |
-| 列值拼接 | `/list-formatter` | ✅ 已实现 |
-| 正则测试器 | `/regex` | 🔜 即将 |
-| 文本 Diff | `/diff` | 🔜 即将 |
-| JWT 解析 | `/jwt` | 🔜 即将 |
-| URL 编解码 | `/url-codec` | 🔜 即将 |
+| JSON 查看器 | `/json-viewer` | ✅ |
+| 文本对比 | `/diff` | ✅ |
+| SQL 格式化 | `/sql-formatter` | ✅ |
+| 列值拼接 | `/list-formatter` | ✅ |
+| 时间戳转换 | `/timestamp` | ✅ |
+| 密码生成器 | `/password` | ✅ |
+| 颜色转换 | `/color` | ✅ |
 
 ## 技术栈
 

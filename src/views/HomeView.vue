@@ -25,7 +25,6 @@ function goTool(path: string, available: boolean) {
   <div class="home">
     <div class="home-header">
       <h1>&gt; DevToolbox</h1>
-      <p class="home-subtitle">开发者常用工具集。所有数据均在浏览器本地处理，不会上传至服务器。</p>
     </div>
 
     <div class="tool-grid">
