@@ -205,7 +205,7 @@ function doCopyAll() {
   width: 56px;
   flex-shrink: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-muted);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -323,7 +323,7 @@ function doCopyAll() {
   padding: 5px 12px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: inherit;
   cursor: pointer;
@@ -332,7 +332,7 @@ function doCopyAll() {
 }
 
 .btn:disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
@@ -350,7 +350,7 @@ function doCopyAll() {
 
 .btn-option.active {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   border-color: var(--color-brand);
 }
 
@@ -368,7 +368,7 @@ function doCopyAll() {
 
 .btn-now {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 

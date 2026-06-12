@@ -244,7 +244,7 @@ function doCopy(text: string) {
   width: 64px;
   flex-shrink: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-muted);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -304,7 +304,7 @@ function doCopy(text: string) {
   padding: 5px 12px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: inherit;
   cursor: pointer;
@@ -313,7 +313,7 @@ function doCopy(text: string) {
 }
 
 .btn:disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 

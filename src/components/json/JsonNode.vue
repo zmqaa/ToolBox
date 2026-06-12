@@ -99,11 +99,11 @@ function toggle() {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  color: var(--text-muted);
+  color: var(--text-label);
   cursor: pointer;
   user-select: none;
   flex-shrink: 0;
-  font-weight: 500;
+  font-weight: 600;
   margin-right: 2px;
 }
 
@@ -128,6 +128,7 @@ function toggle() {
   color: var(--text-muted);
   font-size: 13px;
   font-style: italic;
+  font-weight: 500;
   margin: 0 4px;
 }
 

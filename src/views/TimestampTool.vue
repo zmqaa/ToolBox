@@ -225,7 +225,7 @@ function doCopy(text: string | number) {
 }
 
 .ts-input::placeholder {
-  color: var(--text-muted);
+  color: var(--text-hint);
   font-size: 15px;
 }
 
@@ -238,8 +238,8 @@ function doCopy(text: string | number) {
 
 .precision-label {
   font-size: 13px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
@@ -251,7 +251,7 @@ function doCopy(text: string | number) {
 .source-hint {
   margin-left: auto;
   font-size: 12px;
-  color: var(--text-muted);
+  color: var(--text-hint);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
@@ -275,8 +275,8 @@ function doCopy(text: string | number) {
   width: 88px;
   flex-shrink: 0;
   font-size: 14px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
@@ -335,7 +335,7 @@ function doCopy(text: string | number) {
   gap: 12px;
   padding: 48px 20px;
   text-align: center;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 .ts-empty p {
@@ -370,7 +370,7 @@ function doCopy(text: string | number) {
   padding: 5px 12px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: inherit;
   cursor: pointer;
@@ -379,13 +379,13 @@ function doCopy(text: string | number) {
 }
 
 .btn:disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
 .btn-now {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
@@ -406,7 +406,7 @@ function doCopy(text: string | number) {
 
 .btn-precision {
   background: transparent;
-  color: var(--text-muted);
+  color: var(--text-label);
   border: 1px solid var(--border-color);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   font-size: 12px;
@@ -420,7 +420,7 @@ function doCopy(text: string | number) {
 
 .btn-precision.active {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   border-color: var(--color-brand);
 }
 

@@ -47,8 +47,8 @@ const rootValue = computed<JsonValue | null>(() => store.parsedData)
 
 .empty-label {
   font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   letter-spacing: 1px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   border: 1px dashed var(--border-color);

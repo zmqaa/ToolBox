@@ -178,8 +178,8 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 
 .panel-label {
   font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   letter-spacing: 1px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -217,7 +217,7 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 }
 
 .sql-textarea::placeholder {
-  color: var(--text-muted);
+  color: var(--text-hint);
 }
 
 .sql-output {
@@ -257,8 +257,8 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 
 .empty-label {
   font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   letter-spacing: 1px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   border: 1px dashed var(--border-color);
@@ -267,7 +267,7 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 }
 
 .output-empty p {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-size: 15px;
   max-width: 280px;
   line-height: 1.6;
@@ -300,7 +300,7 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
   padding: 5px 12px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: inherit;
   cursor: pointer;
@@ -308,13 +308,13 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 }
 
 .btn:disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
 .btn-option {
   background: transparent;
-  color: var(--text-muted);
+  color: var(--text-label);
   border: 1px solid var(--border-color);
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -326,7 +326,7 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 
 .btn-option.active {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   border-color: var(--color-brand);
 }
 
@@ -392,7 +392,7 @@ select u.id, u.name, o.amount from users u left join orders o on u.id = o.user_i
 
 .btn-copied {
   background: var(--color-brand) !important;
-  color: #fff !important;
+  color: var(--text-btn-brand) !important;
   border-color: var(--color-brand) !important;
 }
 </style>

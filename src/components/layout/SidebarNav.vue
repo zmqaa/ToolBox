@@ -48,8 +48,8 @@ function isActive(path: string): boolean {
 .nav-section-title {
   padding: 8px 24px 14px;
   font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   letter-spacing: 1px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -88,7 +88,7 @@ function isActive(path: string): boolean {
 }
 
 .nav-item.disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 

@@ -269,7 +269,7 @@ charlie
 .seg-item {
   padding: 5px 16px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   background: transparent;
   color: var(--text-muted);
@@ -291,7 +291,7 @@ charlie
 
 .seg-item.active {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
 }
 
 /* ---- 调节行 ---- */
@@ -339,7 +339,7 @@ charlie
 
 .btn-tune.active {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   border-color: var(--color-brand);
 }
 
@@ -382,7 +382,7 @@ charlie
 
 .panel-label {
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 1.5px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
@@ -472,7 +472,7 @@ charlie
   padding: 5px 12px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: inherit;
   cursor: pointer;
@@ -481,7 +481,7 @@ charlie
 }
 
 .btn:disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
@@ -509,7 +509,7 @@ charlie
 
 .btn-copied {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   border-color: var(--color-brand);
 }
 

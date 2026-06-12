@@ -325,8 +325,8 @@ const showAll = ref(false)
   transition: all 0.15s;
 }
 
-.btn-swap:hover:not(:disabled) { color: var(--text-primary); border-color: var(--text-muted); }
-.btn-swap:disabled { opacity: 0.3; cursor: not-allowed; }
+.btn-swap:hover:not(:disabled) { color: var(--text-primary); border-color: var(--text-label); }
+.btn-swap:disabled { opacity: 0.45; cursor: not-allowed; }
 
 .panel-header {
   padding: 8px 18px;
@@ -340,7 +340,7 @@ const showAll = ref(false)
 
 .panel-label {
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 1.5px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
@@ -370,7 +370,7 @@ const showAll = ref(false)
 }
 
 .diff-textarea:focus { background: var(--bg-input-focus); }
-.diff-textarea::placeholder { color: var(--text-muted); }
+.diff-textarea::placeholder { color: var(--text-hint); }
 
 /* ==============================
    结果面板
@@ -615,14 +615,14 @@ const showAll = ref(false)
   padding: 5px 12px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: inherit;
   cursor: pointer;
   border: none;
   white-space: nowrap;
 }
-.btn:disabled { opacity: 0.35; cursor: not-allowed; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
 .btn-ghost {
   background: transparent;
@@ -640,7 +640,7 @@ const showAll = ref(false)
 .btn-secondary:hover:not(:disabled) { background: var(--border-color); }
 
 .btn-copy-sm { padding: 4px 10px; font-size: 12px; }
-.btn-copied { background: var(--color-brand); color: #fff; border-color: var(--color-brand); }
+.btn-copied { background: var(--color-brand); color: var(--text-btn-brand); border-color: var(--color-brand); }
 
 /* ==============================
    状态栏

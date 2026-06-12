@@ -14,12 +14,18 @@
   --bg-input: #f7f4e9;
   --bg-input-focus: #fefdfa;
 
-  /* 文字 — 暖棕黑，对比清晰 */
+  /* 文字 — 浅色主题用深黑棕，确保高对比 */
   --text-primary: #1f1b0e;
-  --text-secondary: #5c5240;
+  --text-secondary: #4a3f2e;
   --text-sidebar: #4d4432;
   --text-sidebar-active: #1f1b0e;
-  --text-muted: #8a8070;
+  --text-muted: #6b6048;
+  --text-hint: #8a8070;
+  --text-label: #5c5240;
+  --text-btn-brand: #1f1b0e;
+
+  /* 字重 token */
+  --font-weight-btn: 600;
 
   /* 边框 — 暖灰米 */
   --border-color: #e0dac8;
@@ -35,7 +41,7 @@
   --json-string: #c06820;
   --json-number: #7346c0;
   --json-boolean: #7346c0;
-  --json-null: #a09888;
+  --json-null: #7a7065;
 
   /* 功能色 */
   --color-success: #6a8a3e;
@@ -60,7 +66,13 @@
   --text-secondary: #949a96;
   --text-sidebar: #7d827e;
   --text-sidebar-active: #e2e6e3;
-  --text-muted: #656a67;
+  --text-muted: #7d827e;
+  --text-hint: #656a67;
+  --text-label: #949a96;
+  --text-btn-brand: #ffffff;
+
+  /* 字重 token */
+  --font-weight-btn: 600;
 
   --border-color: #1d201e;
   --border-input: #2a2e2b;

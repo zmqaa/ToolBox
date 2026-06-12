@@ -76,8 +76,8 @@ function doCopy() {
 
 .input-label {
   font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 600;
+  color: var(--text-label);
   letter-spacing: 1px;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -102,7 +102,7 @@ function doCopy() {
 }
 
 .input-textarea::placeholder {
-  color: var(--text-muted);
+  color: var(--text-hint);
 }
 
 .input-actions {
@@ -117,19 +117,19 @@ function doCopy() {
   padding: 7px 16px;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-btn);
   transition: all 0.15s;
   font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
 .btn:disabled {
-  opacity: 0.35;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
 .btn-primary {
   background: var(--color-brand);
-  color: #ffffff;
+  color: var(--text-btn-brand);
 }
 
 .btn-primary:hover:not(:disabled) {
@@ -158,7 +158,7 @@ function doCopy() {
 
 .btn-copied {
   background: var(--color-brand);
-  color: #fff;
+  color: var(--text-btn-brand);
   border-color: var(--color-brand);
 }
 </style>
